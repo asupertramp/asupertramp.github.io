@@ -3,7 +3,6 @@ layout: post
 category: "reading_notes"
 title:  "Hello World[test]"
 tags: [others]
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 ---
 ### Hello World 
 
