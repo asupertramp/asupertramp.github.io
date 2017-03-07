@@ -14,7 +14,7 @@ all_categories: [
 ["ml", "ML","/posts/ml.html"],
 ["dl", "DL","/posts/dl.html"],
 ["math", "Math","/posts/math.html"],
-["3th_party", "3th Party","/posts/3th_party.html"],
+["Libs", "Libs","/posts/3th_party.html"],
 ["reading_notes", "Reading Notes", "/posts/reading_notes.html"], 
 ["other", "Other","/posts/other.html"],
 ["about", "About","/about.html"]
