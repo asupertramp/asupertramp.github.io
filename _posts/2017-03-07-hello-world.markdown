@@ -12,8 +12,8 @@ int main() {
 }
 ```
 
-[baidu](www.baidu.com)
+[baidu](http://www.baidu.com)
 
-<a href='www.baidu.com'>
-    <img src="images/posts/2017-03-07-breaches.png">
+<a href='http://www.baidu.com'>
+    <img src="images/posts/2017-03-07/breaches.png">
 </a>
