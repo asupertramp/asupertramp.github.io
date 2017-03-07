@@ -3,20 +3,21 @@ highlighter: pygments
 permalink: /posts/:title.html
 excerpt_separator: "<!-- more -->"
 
-github: panxw
-author: "潘学文"
-email: winfirm#163.com
-name: "潘学文个人博客"
-url: http://www.panxw.com
-domain: www.panxw.com
+github: asupertramp
+author: "Asupertramp"
+name: "Asupertramp's Blog"
+#url: http://www.panxw.com
+#domain: www.panxw.com
 all_categories: [
-["android", "Android开发","/posts/android.html"], 
-["program", "软件编程","/posts/program.html"],
-["web", "Web建站","/posts/web.html"], 
-["linux", "Linux相关","/posts/linux.html"],
-["read", "读书笔记","/posts/read.html"], 
-["other", "杂记","/posts/other.html"],
-["about", "关于","/about.html"]
+["languages", "Languages","/posts/languages.html"], 
+["os", "OS","/posts/os.html"],
+["ml", "ML","/posts/ml.html"],
+["dl", "DL","/posts/dl.html"],
+["math", "Math","/posts/math.html"],
+["3th_party", "3th Party","/posts/3th_party.html"],
+["reading_notes", "Reading Notes", "/posts/reading_notes.html"], 
+["other", "Other","/posts/other.html"],
+["about", "About","/about.html"]
 ]
 
 paginate: 8
