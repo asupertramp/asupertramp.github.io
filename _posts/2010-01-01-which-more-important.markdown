@@ -1,6 +1,6 @@
 ---
 layout: post
-category: "read"
+category: "reading_notes"
 title:  "人生什么更重要？[测试]"
 tags: [阅读,人生]
 ---
