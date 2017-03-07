@@ -17,3 +17,7 @@ int main() {
 <a href='http://www.baidu.com'>
     <img src="/images/posts/2017-03-07/breaches.png">
 </a>
+
+
+$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
+\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
