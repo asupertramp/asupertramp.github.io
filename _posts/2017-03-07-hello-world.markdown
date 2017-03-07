@@ -22,6 +22,5 @@ int main() {
 ---
 公式
 ---
-$$\sum \sum_{a=1}^{a=n}x=y$$
 
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
