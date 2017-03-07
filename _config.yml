@@ -16,7 +16,7 @@ all_categories: [
 ["math", "Math","/posts/math.html"],
 ["Libs", "Libs","/posts/3th_party.html"],
 ["reading_notes", "Reading Notes", "/posts/reading_notes.html"], 
-["other", "Other","/posts/other.html"],
+["others", "Others","/posts/others.html"],
 ["about", "About","/about.html"]
 ]
 
