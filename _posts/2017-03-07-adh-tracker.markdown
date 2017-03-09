@@ -23,5 +23,18 @@ track对机器人来说非常重要.以无人驾驶汽车为例,需要知道周�
 tracker的输入是经过segment和associate（匈牙利算法）点云，然后tracker进行速度估计。
 ### 概率模型                                                        
 定义物体状态 Xt = （Xtp， Xv），Xtp是物体的位置，Xv是物体的速度。Xtp是指当前帧相对于上一帧的位置.忽略角速度，因为相对于10hz的lidar转速，物体的角速度可以忽略。为了性能考虑，同样不考虑Z轴方向的速度。
-<img src="/images/posts/2017-03-07/fig1.png" width="50%" height="50%">
+<img src="/images/posts/2017-03-07/fig1.png" width="70%" height="70%">
+
+<img src="/images/posts/2017-03-07/fig2.png" width="70%" height="70%">
+
+###动态贝叶斯网络
+在概率模型中引入了物体的latent surface St，St是从物体表面采样的点集。由于lidar的观测值就是物体表面的点，所以t时刻的观测值Zt与t-1时刻的观测值就不是独立的了，因为物体表面必然是保持相对一致的。
+<img src="/images/posts/2017-03-07/fig3.png" width="70%" height="70%">
+St的概念与前人的工作类似，不过在ADH中St只是用来更好的估计速度，而不是去建模物体的形状。
+St中的点是从物体表面均匀采样的。观测值Zt是t时刻观测到的点，每个观测值Ztj与St中的某个点Stj对应。由于传感器噪声，Zt不能与St完全一致。观测值Zt与St以及Xt的关系：St的点加上传感器精度引入的高斯噪声，然后根据Xtp进行转换，得到观测值。
+<img src="/images/posts/2017-03-07/fig4.png">
+<img src="/images/posts/2017-03-07/fig5.png">
+
+
+
 
