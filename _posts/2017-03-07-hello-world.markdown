@@ -3,6 +3,7 @@ layout: post
 category: "reading_notes"
 title:  "Hello World[test]"
 tags: [others]
+
 ---
 ### Hello World 
 
@@ -21,6 +22,7 @@ int main() {
 
 ---
 公式
+
 ---
 
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
