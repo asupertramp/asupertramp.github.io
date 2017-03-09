@@ -23,5 +23,5 @@ track对机器人来说非常重要.以无人驾驶汽车为例,需要知道周�
 tracker的输入是经过segment和associate（匈牙利算法）点云，然后tracker进行速度估计。
 ### 概率模型                                                        
 定义物体状态 Xt = （Xtp， Xv），Xtp是物体的位置，Xv是物体的速度。Xtp是指当前帧相对于上一帧的位置.忽略角速度，因为相对于10hz的lidar转速，物体的角速度可以忽略。为了性能考虑，同样不考虑Z轴方向的速度。
-<img src="/images/posts/2017-03-07/fig1.png">
+<img src="/images/posts/2017-03-07/fig1.png" width="50%" height="50%">
 
